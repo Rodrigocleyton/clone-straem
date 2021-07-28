@@ -1,0 +1,129 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img/fundonetflix.jpg);
+}
+.header-login .container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: black;
+    color: silver;
+    width: 100vw;
+}
+.header-login .container .logo{
+    color: var(--vermelho);
+    font-family: 'arial black';
+    font-size: 40px;
+    margin-left: 10px;
+}
+.header-login .container h3{
+    margin-left: 20px;
+    font-size: 20px;
+}
+h3:hover{
+    color: white;
+}
+.header-login .container a{
+    color: silver;
+    text-decoration: none;
+    
+}
+.formulario-login{
+    width: 400px;
+    height: 450px;
+    background-color: var(--preta);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 35vw;
+}
+.formulario-login .container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.formulario-login .container .logo{
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+input{
+    margin-bottom: 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+.formulario-login .container .botao-entrar{
+    background-color: var(--vermelho);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.formulario-login .container .menu-checkbox{
+    display: flex;
+    
+    justify-content: space-between;
+    color: white;
+    
+}
+.formulario-login .container .menu-checkbox h4{
+    margin-top: 17px;
+    
+}
+.formulario-login .container .menu-facebook{
+    display: flex;
+    align-items: center;
+    color: silver;
+}
+.formulario-login .container .menu-facebook h5{
+    padding-left: 5px;
+}
+.formulario-login .container .menu-facebook a{
+    text-decoration: none;
+    color: silver;
+}
+.formulario-login .container .menu-facebook a:hover{
+    color: white;
+}
+.formulario-login .container .novo-por-aqui{
+    display: flex;
+    flex-direction: row;
+    color: silver;
+}
+.formulario-login .container .novo-por-aqui .assine-agora{
+    color: white;
+    padding-left: 5px;
+}
+.formulario-login .container .novo-por-aqui a{
+    text-decoration: none;
+}
+.formulario-login .container .novo-por-aqui a:hover{
+    color: red;
+}
+footer{
+    background-color: black;
+    color: silver;
+    margin-top: 48px;
+    width: 100vw;
+    height: 5vh;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}

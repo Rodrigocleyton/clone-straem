@@ -1,0 +1,16 @@
+@media screen and (max-width:700px){
+    .header-index .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.botoes{
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+}
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}

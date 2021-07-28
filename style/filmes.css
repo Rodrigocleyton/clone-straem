@@ -1,0 +1,89 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: var(--preta);
+}
+.header-filmes .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+    background-color: black;
+    color: silver;
+    width: 100vw;
+    margin: 0;
+}
+.header-filmes .container .logo{
+    color: var(--vermelho);
+    font-family: 'arial black';
+    font-size: 40px;
+    margin: 0;
+}
+.header-filmes .container h3{
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+h3:hover{
+    color: white;
+}
+.header-filmes .container a{
+    color: silver;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background: url(/img-filmes/painel-de-festa-vingadores-ultimato-marvel-avengers-endgame-painel-de-festa-vingadores-ultimato-deco.jpg);
+    height: 650px;
+
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    margin-bottom: 5px;
+    
+
+}
+.filme-principal .descricao{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-top: 2%;
+    
+}
+
+.filme-principal .titulo{
+    font-size: 40px;
+    margin-top: 70%;
+}
+
+
+footer{
+    background-color: black;
+    color: silver;
+    margin-top: 48px;
+    width: 100vw;
+    height: 5vh;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
